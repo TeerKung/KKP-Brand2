@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinKubPak - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">KinKubPak</a>
+        
+        <div class="nav-actions">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeBtn" class="theme-btn">🌙</button>
+            <button id="menuToggle" class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <main class="menu-container">
+        <h2 class="section-title">เมนูสุดคูลของเรา</h2>
+        <div class="grid">
+            
+            <!-- 1. สลัดสดเอาจุก -->
+            <div class="card">
+                <div class="card-media">
+                    🥗
+                    <!-- ปลดล็อกเอาคอมเมนต์ออกเมื่อต้องการใช้รูปภาพจริงแทนอิโมจิ:
+                    <img src="images/menu1.jpg" alt="สลัดสดเอาจุก" style="width:100%; height:100%; object-fit:cover; position:absolute;"> 
+                    -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">สลัดสดเอาจุก</h3>
+                    <p class="price">129 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+            <!-- 2. ผักโรลเลอร์ -->
+            <div class="card">
+                <div class="card-media">
+                    🌯
+                    <!-- <img src="images/menu2.jpg" alt="ผักโรลเลอร์" style="width:100%; height:100%; object-fit:cover; position:absolute;"> -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">ผักโรลเลอร์</h3>
+                    <p class="price">89 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+            <!-- 3. สลัดอกไก่ -->
+            <div class="card">
+                <div class="card-media">
+                    🍗
+                    <!-- <img src="images/menu3.jpg" alt="สลัดอกไก่" style="width:100%; height:100%; object-fit:cover; position:absolute;"> -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">สลัดอกไก่</h3>
+                    <p class="price">149 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+            <!-- 4. สลัดฟรุ๊ตตี้ -->
+            <div class="card">
+                <div class="card-media">
+                    🍉
+                    <!-- <img src="images/menu4.jpg" alt="สลัดฟรุ๊ตตี้" style="width:100%; height:100%; object-fit:cover; position:absolute;"> -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">สลัดฟรุ๊ตตี้</h3>
+                    <p class="price">119 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+            <!-- 5. สลัดเขียวขจี -->
+            <div class="card">
+                <div class="card-media">
+                    🥬
+                    <!-- <img src="images/menu5.jpg" alt="สลัดเขียวขจี" style="width:100%; height:100%; object-fit:cover; position:absolute;"> -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">สลัดเขียวขจี</h3>
+                    <p class="price">99 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+            <!-- 6. โรลเลอร์ยักษ์ -->
+            <div class="card">
+                <div class="card-media">
+                    🌯✨
+                    <!-- <img src="images/menu6.jpg" alt="โรลเลอร์ยักษ์" style="width:100%; height:100%; object-fit:cover; position:absolute;"> -->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">โรลเลอร์ยักษ์</h3>
+                    <p class="price">159 บาท</p>
+                    <button class="btn btn-buy">สั่งซื้อเล้ย!</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="alertBanner" class="alert-banner">
+        ขณะนี้ร้านยังอยู่ในระหว่างทดสอบระบบจ้า! 🥕
+    </div>
+
+    <footer>
+        <div class="footer-logo">Kin Kub Pak</div>
+        <p>©2026 KKP Inc. All rights reserved</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

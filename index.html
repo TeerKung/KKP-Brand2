@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinKubPak - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* สไตล์พิเศษสำหรับกล่องประกาศส่งงาน */
+        .assignment-banner {
+            background-color: #ffebeb;
+            border: 2px dashed #ec5939;
+            color: #c0392b;
+            padding: 1.5rem;
+            margin: 2rem auto;
+            max-width: 1000px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        [data-theme="dark"] .assignment-banner {
+            background-color: #2c1a1a;
+            border: 2px dashed #ec5939;
+            color: #ff9999;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">KinKubPak</a>
+        
+        <div class="nav-actions">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <button id="themeBtn" class="theme-btn">🌙</button>
+            
+            <button id="menuToggle" class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('images/hero-bg.jpg');">
+            <div class="hero-content">
+                <h1>Kin Kub Pak</h1>
+                <p>ยินดีต้อนรับสู่แปลงผักสุดชิคโดย "เจ้าแคร์รัต" อาหารเพื่อสุขภาพสไตล์คนคูล</p>
+                <a href="menu.html" class="hero-btn">ดูเมนูสลัดเอาจุก 🥗</a>
+            </div>
+        </div>
+
+        <div class="assignment-banner">
+            ⚠️ ประกาศสำคัญ: เว็บไซต์นี้จัดทำขึ้นเพื่อวัตถุประสงค์ในการส่งงานวิชาเรียนเท่านั้น 
+            ไม่มีการจำหน่ายสินค้า การทำธุรกรรม หรือให้บริการจริงใด ๆ ทั้งสิ้น
+        </div>
+
+        <section class="info-section">
+            <h2 class="section-title">ทำไมต้อง "กินกับผัก"?</h2>
+            <div class="info-grid">
+                
+                <div class="info-card">
+                    <h3>🌱 ผักสดคัดมือ</h3>
+                    <p>พืชผักทุกชนิดได้รับการเลี้ยงดูและตรวจสอบสุขภาพอย่างเข้มงวดโดย "เจ้าแคร์รัต" มั่นใจได้ว่าสด กรอบ ไร้สารเคมีแน่นอน</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚡ เมนูวัยรุ่นชอบ</h3>
+                    <p>ลืมสลัดน่าเบื่อแบบเดิม ๆ ไปได้เลย เพราะเราดีไซน์รสชาติและเมนูสลัดให้เข้ากับไลฟ์สไตล์ของวัยรุ่น ย่อยง่าย สบายท้อง</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>💚 ดูแลด้วยใจ</h3>
+                    <p>เห็นดีไซน์กวน ๆ แบบนี้ แต่พวกเราใส่ใจและรักสุขภาพของลูกค้าทุกคนเหมือนดูแลแปลงผักของตัวเองเลยนะ!</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">Kin Kub Pak</div>
+        <p>©2026 KKP Inc. All rights reserved</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
